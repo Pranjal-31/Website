@@ -83,7 +83,7 @@ const openImage3 = () =>{
      Producer that is producing something and there is one Consumer that is consuming the products produced
       by the Producer.</p>
     <b>GitHub</b> <a className="hyper-link" onClick={ () => 
-    window.open("https://www.npmjs.com/package/react-popupbox")}>link </a>
+    window.open("https://github.com/Pranjal-31/Producer-consumer")}>link </a>
     </>
     )
     PopupboxManager.open ({content})
@@ -112,7 +112,7 @@ const openImage4 = () =>{
     <img className="popup-img" src={image4} alt="img4"/>
     <p>Personal Website.  Created using ReactJS, HTML and CSS.</p>
     <b>GitHub</b> <a className="hyper-link" onClick={ () => 
-    window.open("https://www.npmjs.com/package/react-popupbox")}>link </a>
+    window.open("https://github.com/Pranjal-31/Website")}>link </a>
     </>
     )
     PopupboxManager.open ({content})
@@ -121,7 +121,7 @@ const openImage4 = () =>{
         content,
         config: {
           titleBar: {
-            text: "Portfolio",
+            text: "Personal Website",
           },
         },
       });
