@@ -133,8 +133,7 @@ body{
     font-weight: 400;
 }
 .para-about{
-    text-transform: capitalize;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 200;
 }
 @media(max-width: 486px){

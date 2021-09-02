@@ -16,15 +16,16 @@ function AboutMe() {
                 <p className="para-about">
                 I am motivated, detail-oriented who has developed a mature and responsible approach to any 
                 task that I undertake. Currently pursuing Bachelors in Technology in Computer Science
-                 Engineering at Shri Shankaracharya Technical Campus (SSTC) . I am hardworking and an 
+                 Engineering at Shri Shankaracharya Technical Campus (SSTC) . I am hardworking and
                  ambitious individual.</p>
                  <br>
 
                  </br>
                  <p className="para-about">
 
-I have remarkable skills in web development & designing and have developed and designed my personal website 
-from scratch along with some more web applications and I am proficient in it.
+I have remarkable skills in web development & designing and I am proficient in it, which is represented by 
+my personal website which I created 
+from scratch along with some more web applications.
 I worked with an NGO “Navyuva Charitable Trust”, for developing e-posters.
 </p>
 <br>
