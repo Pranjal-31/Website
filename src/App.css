@@ -130,6 +130,12 @@ body{
 .about-heading{
     text-transform: uppercase;
     color: goldenrod;
+    font-weight: 400;
+}
+.para-about{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 200;
 }
 @media(max-width: 486px){
     .mypic{

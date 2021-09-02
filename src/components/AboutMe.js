@@ -13,21 +13,27 @@ function AboutMe() {
             <div className="col-lg-6 col-xs-12 ">
             <div className="para-wrap">
             <h1 className="about-heading"> About Me</h1>
-                <p>
-                    AboutMe anything Proffesional personal
+                <p className="para-about">
+                I am motivated, detail-oriented who has developed a mature and responsible approach to any 
+                task that I undertake. Currently pursuing Bachelors in Technology in Computer Science
+                 Engineering at Shri Shankaracharya Technical Campus (SSTC) . I am hardworking and an 
+                 ambitious individual.</p>
+                 <br>
 
-                    It is an open-source framework from late 2011 that is used for designing responsive websites with a mobile-first approach faster and easier. Bootstrap is available for HTML, CSS, and JS. According to server-side languages like PHP, Node, etc bootstrap helps to design the frontend.
+                 </br>
+                 <p className="para-about">
 
-Why Bootstrap? 
+I have remarkable skills in web development & designing and have developed and designed my personal website 
+from scratch along with some more web applications and I am proficient in it.
+I worked with an NGO “Navyuva Charitable Trust”, for developing e-posters.
+</p>
+<br>
 
-Faster and Easier
-Mobile First style
-It is free! Available on www.getbootstrap.com
-Browser support
-Responsive Design 
-Bootstrap 5 alpha launched in mid-June of 2020. As it is in the alpha-1 version, in the future some more features can be added to bootstrap 5
+</br>
+<p className="para-about">
+I am seeing a part-time position in the industry in which I can put into practice my knowledge and experience, ultimately benefiting the operations of the organisation that I work for.
 
-In the alpha-1 version of bootstrap 5 some classes removed are: 
+
                 </p>
                 </div>
             </div>
