@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Merryweather:wght@500&display=swap');
+body{
+    font-family:"Merryweather" !important;
+}
+  /************************* NAVBAR *****************************/
+  nav{
+      z-index: 2;
+  }
+  .logo{
+      width: 16.25rem;
+      color: beige !important;
+
+  }
+  /*---------------- NAV LINK ---------------*/
+  nav a.nav-link{
+      font-weight: 500;
+      letter-spacing: 0.00300rem;
+      cursor: pointer;
+      font-size: 20px;
+
+  }
+  nav ul li{
+      text-transform: capitalize;
+  }
+  .navbar-nav > li > a {
+      margin-right: 0.75rem;
+      margin-left: 00.75rem;
+      color: beige !important;
+      border-bottom: 00.1875rem rgb(37, 37, 39) solid;
+  }
+  .navbar-brand{
+      height: 6rem !important;
+      padding: 0 !important;
+  }
+  @media(max-width: 768px){
+      .navbar-brand{
+          width: 7rem;
+      }
+  }
+  .navbar-nav > li > a.active, .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+      border-bottom: 000.1875rem #3cff01 solid;
+      text-transform: uppercase ;
+
+  }
+  /*************HEADER************/
+.header-wrapper{
+    position: relative;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}   
+.main-info{
+    display: flex;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    right: 0rem;
+    bottom: 0rem;    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    z-index: 1;
+
+}
+.main-info h1{
+    color: #45da18;
+    text-transform: capitalize;
+}
+@media(max-width:768px){
+    .main-info h1{
+        font-size: 1.8rem;
+    }
+}
+
+
+/**************TYPED TEXT *********/
+.typed-text {
+    font-size: 1rem;
+    color: rgba(226, 199, 164, 0.856);
+}
+@media(max-width: 768px){
+    .typed-text{
+        font-size: 0.7rem;
+    }
+}
+
+/********** BTN OFFER***********/
+.btn-offer {
+    border: 1px solid red;
+    text-transform: capitalize;
+    border-radius: 6rem;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: rgb(223, 223, 223);
+    margin: 2rem;
+}
+
+.btn-offer:hover{
+    text-decoration: none;
+    background-color: rgba(202, 17, 17, 0.849);
+    color: wheat;
+    transition: 0.2s ease-in-out;
+}
+/********* PARTICLES ************/
+.tsparticles-canvas-el{
+    position :absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.row{
+    display: flex;
+}
+.photo-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mypic{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    padding: .5rem;
+    border: 1px rgb(133, 127, 112) solid;
+    
+}
+.about-heading{
+    text-transform: uppercase;
+    color: goldenrod;
+}
+@media(max-width: 486px){
+    .mypic{
+        width: 10rem;
+        height: 10rem;
+    }
+    .para-wrap{
+        font-size: small;
+    }
+    
+}
+
+/****************************** SKILLS *********************************/
+
+.my-skills .tech-skills{
+    padding-right: 60px;
+    color:wheat;
+
+}
+
+.my-skills .tech-skills h2{
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    
+}
+
+/* .proff-skills{
+    padding-left: 20%;
+}
+
+.proff-skills h2{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    
+}
+
+
+.proff-progg li{
+    display: inline block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.my-progg{
+    margin-bottom: 10px;
+    font: 900 1.14285/1 cinzerl, cursive;
+    color: black;
+} */
+
+.candidates{
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.candidates .partial{
+    display: inline block;
+    width: 100%;
+
+
+}
+
+/* .candidates .partial .info{
+    position: relative;
+
+} */
+.candidates .partial .name{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.candidates .partial .perc{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+#js{
+    width: 86%;
+}
+#ja{
+    width: 72%;
+}
+#py{
+    width: 43%;
+}
+#re{
+    width: 55%;
+}
+
+.candidates .partial .proggBar{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(29, 28, 28, 0.774);
+}
+
+.candidates .partial .percenT{
+    position:relative;
+    top: 0px;
+    left: 0px;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: aqua;
+    -webkit-transition: 3s all;
+    -webkit-animation-duration: 3s ;
+    -webkit-animation-name: animationProgress ;
+}
+
+
+@keyframes animationProgress{
+    from{
+        width: 0%;
+
+    }
+}
+
+
+.skills-main{
+    background-color: rgb(0, 0, 0);
+}
+
+/************* PORTFOLIO ************/
+
+.portfolio-wrapper{
+    background: whitesmoke;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.portfolio-image{
+    border: 1px solid greenyellow;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    width: 20rem;
+    height: 13.125rem;
+    position: relative;
+}
+
+.portfolio-image-wrap{
+    flex: 20%;
+    padding: 5px;
+    position: relative;    
+}
+
+
+.overflow{
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(0, 0, 0);
+    width: 20rem !important;
+    height: 13.125rem !important;
+    top: 0;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.portfolio-image-wrap:hover .overflow{
+    opacity: 60%;
+    transition: 0.3s ease-in-out;
+}
+.portfolio-icon{
+    position: absolute;
+    opacity:0%;
+    margin-left: -10rem;
+    margin-top: 6.5rem;
+    color: rgb(243, 134, 9);
+    font-size: 20px;
+
+}
+
+.portfolio-image-wrap:hover .portfolio-icon{
+    opacity: 60% ;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/************POPUP ******************/
+.popup-img{
+    width: 15rem;
+    padding: 0.5rem 0.5rem;
+}
+.popupbox-wrapper{
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+
+@media(max-width: 640px) {
+    .popup-img{
+        width: 100%;
+    }
+}
+
+@media(max-height: 640px) {
+
+    .popupbox-wrapper{
+        height: 100% !important;
+    }
+    .popup-img{
+        width: 40%;
+    }
+}
+
+.hyper-link{
+    cursor: pointer;
+    color: rgb(25, 99, 57);
+}
+.hyper-link:hover{
+    cursor: pointer;
+    color: rgb(85, 4, 78);
+}
+
+
+/*********** CONTACTS ****************/
+
+.contacts{
+    background: rgb(42, 51, 59);
+    padding:3rem 0;
+}
+
+.contacts h1{
+    color: springgreen;
+    padding: 1.3rem 0;
+    text-transform: uppercase;
+}
+
+.contacts p{
+    color: rgb(161, 174, 187);
+    font-size: 1.2rem;
+}
+
+/* ************ INPUT ************* */
+.contacts input, .contacts textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid rgb(56, 68, 78);
+    border-radius: 0;
+    color: whitesmoke;
+    outline: 0 !important;
+    box-shadow: none !important;
+    top: 0;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+}
+
+.contacts .container{
+    padding: 4rem 0;
+}
+.contacts input:focus, .contacts textarea:focus{
+    background: transparent;
+    color: whitesmoke;
+    border-bottom: 0.125rem solid whitesmoke;
+}
+.contacts textarea{
+    height: 12.2rem !important;
+}
+.contact-btn{
+    margin: 1rem 0 0 0;
+    width: 100%;
+    background: none;
+    text-transform: uppercase;
+    color: rgb(240, 63, 63);
+    border: none;
+    border: 0.100rem solid;
+}
+.contact-btn:hover{
+    background: rgba(247, 11, 11, 0.507);
+    color: white;
+}
+
+.line{
+    position: relative;
+    width: 0;
+    top: -0.8rem;
+    height: 0.125rem;
+    background: darkgreen;
+    display: inline-block;
+}
+
+input.form-control, textarea.form-control{
+    margin: -0.3rem 0;
+}
+
+input:focus+.line, textarea:focus+.line{
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}
+@media(max-width: 768px) {
+    .contacts .container{
+        padding: 0 1rem;
+    }
+    .contacts p{
+        padding: 0 0.4rem;
+    }
+}
+
+
+/*     *********    FOOTER     **********    * */
+
+.footer{
+    background: rgba(1, 6, 32, 0.945);
+    color: rgb(177, 171, 171);
+    padding: 3rem;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(177, 171, 171);
+}
+.footer a:hover{
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+}
+.footer p{
+    margin-bottom: 0;
+}
+
+
+
