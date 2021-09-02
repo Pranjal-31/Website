@@ -18,7 +18,7 @@ const openImage1 = () =>{
     <img className="popup-img" src={image1} alt="img1"/>
     <p>This is a web app for making a todo list. To add tap or click on the bar.</p>
     <b>GitHub</b> <a className="hyper-link" onClick={ () => 
-    window.open("https://github.com/Pranjal-31/todo-list")}>link </a>
+    window.open("https://github.com/Pranjal-31/Todo-list")}>link </a>
     </>
     )
     PopupboxManager.open ({content})
